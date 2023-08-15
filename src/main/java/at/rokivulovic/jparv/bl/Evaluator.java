@@ -16,7 +16,7 @@ public class Evaluator {
 
     }
 
-    public static Object evaluateSingle(Class c, DBClassInformation info, ResultSet set) throws SQLException {
+    public static Object evaluateSingle(Class<?> c, DBClassInformation info, ResultSet set) throws SQLException {
         Object o;
         try {
             o = c.getConstructor().newInstance();
@@ -35,11 +35,11 @@ public class Evaluator {
         return o;
     }
 
-    public static List evaluateAll(Class c, DBClassInformation info, ResultSet set) throws SQLException {
+    public static List evaluateAll(Class<?> c, DBClassInformation info, ResultSet set) throws SQLException {
         List results = new ArrayList();
         while (set.next()) {
             try {
-                Constructor constructor = c.getConstructor();
+                Constructor<?> constructor = c.getConstructor();
                 constructor.setAccessible(true);
 
                 Object o = constructor.newInstance();
