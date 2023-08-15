@@ -1,0 +1,14 @@
+at\rokivulovic\jparv\annotations\general\Entity.class
+at\rokivulovic\jparv\pojos\DBAttributeInformation.class
+at\rokivulovic\jparv\annotations\general\PrimaryKey.class
+at\rokivulovic\jparv\annotations\general\Sequence.class
+at\rokivulovic\jparv\db\Database.class
+at\rokivulovic\jparv\db\Properties.class
+at\rokivulovic\jparv\bl\EntityManager.class
+at\rokivulovic\jparv\db\CachedConnection.class
+at\rokivulovic\jparv\bl\Evaluator.class
+at\rokivulovic\jparv\bl\implementations\sqlbuilders\OracleSQLBuilder.class
+at\rokivulovic\jparv\annotations\general\Attribute.class
+at\rokivulovic\jparv\bl\implementations\sqlbuilders\PostgresSQLBuilder.class
+at\rokivulovic\jparv\bl\SQLBuilder.class
+at\rokivulovic\jparv\pojos\DBClassInformation.class
