@@ -9,7 +9,7 @@ JPA Roki Vulovic Edition is much more slim and easier to use than JPA
 maven: add this as a repository in you pom.xml and import the dependency
 Like this in your pom.xml:
 
-'''
+```
 <repositories>
     <repository>
       <id>java-net-repo</id>
@@ -24,12 +24,12 @@ Like this in your pom.xml:
       <version>1.0</version>
     </dependency>
 </dependencies>
-'''
+```
 
 Then create the files 'jpa-rv.properties' and 'jpa-rv.queries' in your projects resource folder
 
 #### jpa-rv.properties structure
-'''
+```
 #######################
 # Database Properties #
 #######################
@@ -50,11 +50,11 @@ datatype.java.lang.Integer=%d
 datatype.java.lang.Float=%f
 datatype.java.lang.Double=%f
 datatype.java.util.Date=TO_DATE(%s,'dd-mm-yyyy')
-'''
+```
 
 #### jpa-rv.queries structure
-'''
+```
 # Put your predefined queries here
 # Example:
 # query1=SELECT test_id, test_name FROM test WHERE test_id=:0 OR test_id=:1
-'''
+```
