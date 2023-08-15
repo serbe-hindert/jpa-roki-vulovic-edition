@@ -1,6 +1,6 @@
 package at.rokivulovic.jparv.bl;
 
-import at.rokivulovic.pojos.DBClassInformation;
+import at.rokivulovic.jparv.pojos.DBClassInformation;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

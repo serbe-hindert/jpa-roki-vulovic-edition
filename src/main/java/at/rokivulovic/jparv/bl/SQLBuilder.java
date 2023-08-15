@@ -1,8 +1,8 @@
 package at.rokivulovic.jparv.bl;
 
-import at.rokivulovic.annotations.Sequence;
-import at.rokivulovic.db.Properties;
-import at.rokivulovic.pojos.DBClassInformation;
+import at.rokivulovic.jparv.db.Properties;
+import at.rokivulovic.jparv.pojos.DBClassInformation;
+import at.rokivulovic.jparv.annotations.general.Sequence;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

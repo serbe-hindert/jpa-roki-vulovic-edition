@@ -1,14 +1,15 @@
 package at.rokivulovic.jparv.bl;
 
-import at.rokivulovic.annotations.Attribute;
-import at.rokivulovic.annotations.Entity;
-import at.rokivulovic.annotations.PrimaryKey;
-import at.rokivulovic.annotations.Sequence;
-import at.rokivulovic.bl.implementations.sqlbuilders.OracleSQLBuilder;
-import at.rokivulovic.bl.implementations.sqlbuilders.PostgresSQLBuilder;
-import at.rokivulovic.db.Database;
-import at.rokivulovic.pojos.DBAttributeInformation;
-import at.rokivulovic.pojos.DBClassInformation;
+import at.rokivulovic.jparv.annotations.general.Attribute;
+import at.rokivulovic.jparv.annotations.general.Entity;
+import at.rokivulovic.jparv.annotations.general.PrimaryKey;
+import at.rokivulovic.jparv.annotations.general.Sequence;
+import at.rokivulovic.jparv.bl.implementations.sqlbuilders.OracleSQLBuilder;
+import at.rokivulovic.jparv.bl.implementations.sqlbuilders.PostgresSQLBuilder;
+import at.rokivulovic.jparv.db.Database;
+import at.rokivulovic.jparv.pojos.DBAttributeInformation;
+import at.rokivulovic.jparv.pojos.DBClassInformation;
+import at.rokivulovic.jparv.db.Properties;
 
 import java.io.File;
 import java.io.IOException;

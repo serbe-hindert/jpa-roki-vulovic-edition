@@ -1,4 +1,4 @@
-package at.rokivulovic.jparv.annotations;
+package at.rokivulovic.jparv.annotations.general;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
