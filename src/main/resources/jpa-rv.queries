@@ -1,0 +1,3 @@
+# Put your predefined queries here
+# Example:
+# query1=SELECT test_id, test_name FROM test WHERE test_id=:0 OR test_id=:1
