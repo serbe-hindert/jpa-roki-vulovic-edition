@@ -2,7 +2,8 @@
 JPA-RV-Edition is like normal JPA but without the bloat
 
 Have you ever wanted to use JPA, but without the all the bloat it provides?
-JPA Roki Vulovic Edition is much more slim and easier to use than JPA
+JPA Roki Vulovic Edition is much more slim and easier to use than JPA. This is a java 20 program.
+<br> To use it, just specify all your database structure like below, and then use the EntityManager class to interact with the database.
 
 
 ## HOW TO USE:
