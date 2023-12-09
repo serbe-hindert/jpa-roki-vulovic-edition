@@ -6,7 +6,7 @@ JPA Roki Vulovic Edition is much more slim and easier to use than JPA. This is a
 <br> To use it, just specify all your database structure like below, and then use the EntityManager class to interact with the database.
 
 
-## HOW TO USE:
+## ~HOW TO USE~: does not worK :( just download
 maven: add this as a repository in you pom.xml and import the dependency
 Like this in your pom.xml:
 
